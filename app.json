@@ -2,7 +2,7 @@
   "expo": {
     "name": "XEON WALLET",
     "slug": "xeon-wallet",
-    "version": "1.0.0",
+    "version": "0.0.1(beta)",
     "orientation": "portrait",
     "icon": "./assets/images/logo.png",
     "scheme": "mobile",
@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.h07ver.xeonwallet"
     },
     "web": {
       "bundler": "metro",
