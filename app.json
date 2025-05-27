@@ -10,7 +10,10 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.h07ver.xeonwallet"
+      "bundleIdentifier": "com.h07ver.xeonwallet",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -48,5 +51,4 @@
     },
     "owner": "h07ver"
   }
-
 }
