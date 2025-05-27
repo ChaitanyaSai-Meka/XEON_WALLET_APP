@@ -4,7 +4,7 @@
     "slug": "xeon-wallet",
     "version": "0.0.1(beta)",
     "orientation": "portrait",
-    "icon": "../assets/images/icon.png",
+    "icon": "../assets/images/logo.png",
     "scheme": "mobile",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -48,5 +48,5 @@
     },
     "owner": "h07ver"
   }
-  
+
 }
