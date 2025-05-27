@@ -35,4 +35,3 @@ XEON Wallet is a modern, full-stack mobile wallet app built with **React Native*
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/ChaitanyaSai-Meka/XEON_WALLET_APP.git
-cd XEON_WALLET_APP
