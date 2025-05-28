@@ -49,13 +49,41 @@ const coffeeTheme = {
     card: "#FFFFFF",
     shadow: "#000000",
   };
+
+const auroraVibeTheme = {
+  primary: "#FF6F61", // Coral pink for a bold, warm accent
+  background: "#F9FAFB", // Soft off-white for a clean, bright background
+  text: "#2D3748", // Dark slate for crisp, readable text
+  border: "#E2E8F0", // Light gray-blue for subtle borders
+  white: "#FFFFFF", // Pure white for consistency
+  textLight: "#7F9CF5", // Soft indigo for secondary text
+  expense: "#F56565", // Warm red for expenses
+  income: "#48BB78", // Fresh green for income
+  card: "#EDF2F7", // Light gray for cards with a soft contrast
+  shadow: "#2D3748", // Dark slate for subtle shadows
+  };
+
+  const minimalistFinanceTheme = {
+    primary: "#4A90E2",    // Calm blue for buttons and highlights
+    background: "#F5F5F5", // Light gray for a clean, bright background
+    text: "#333333",       // Dark gray for readable text
+    border: "#E0E0E0",     // Light gray for subtle borders
+    white: "#FFFFFF",      // Pure white for consistency
+    textLight: "#666666",  // Medium gray for secondary text
+    expense: "#FF5252",    // Soft red for expenses
+    income: "#4CAF50",     // Soft green for income
+    card: "#FFFFFF",       // White for cards
+    shadow: "#000000",     // Black for subtle shadows
+  };
   
   export const THEMES = {
     coffee: coffeeTheme,
     forest: forestTheme,
     purple: purpleTheme,
     ocean: oceanTheme,
+    aurora: auroraVibeTheme,
+    minimalist: minimalistFinanceTheme,
   };
   
   // Theme changer
-  export const COLORS = THEMES.coffee;
+  export const COLORS = THEMES.aurora;
