@@ -4,7 +4,7 @@
     "slug": "xeon-wallet",
     "version": "0.0.1(beta)",
     "orientation": "portrait",
-    "icon": "../assets/images/logo.png",
+    "icon": "./assets/images/logo.png",
     "scheme": "mobile",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -49,6 +49,12 @@
         "projectId": "04e126d1-7f78-41b5-8c79-76b55145649a"
       }
     },
-    "owner": "h07ver"
+    "owner": "h07ver",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/04e126d1-7f78-41b5-8c79-76b55145649a"
+    }
   }
 }
