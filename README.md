@@ -76,5 +76,6 @@ Authentication required for all private endpoints
 ```
 
 ### License
+```bash
 ISC License
-
+```
