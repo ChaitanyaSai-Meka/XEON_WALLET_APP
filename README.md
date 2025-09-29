@@ -58,8 +58,8 @@ npm start
 
 #### Frontend
 ```bash
-Copy code
 cd Frontend
+
 npm install
 # For Android APK builds and emulation:
 npm run android
@@ -67,11 +67,13 @@ npm run android
 
 ### API Overview
 
+```bash
 /api/transactions – GET, POST, PUT endpoints for wallet transactions
 
 /api/wallet – Retrieve and manage wallet data
 
 Authentication required for all private endpoints
+```
 
 ### License
 ISC License
