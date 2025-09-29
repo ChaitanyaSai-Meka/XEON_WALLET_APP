@@ -50,23 +50,29 @@ Built with a React Native frontend and a Node.js + Express backend, it delivers 
 #### Backend  
 ```bash
 cd Backend
+
 npm install
 # Fill in .env with database, Clerk, and Redis keys
 npm start
-Frontend
-bash
+```
+
+#### Frontend
+```bash
 Copy code
 cd Frontend
 npm install
 # For Android APK builds and emulation:
 npm run android
-API Overview
+```
+
+### API Overview
+
 /api/transactions – GET, POST, PUT endpoints for wallet transactions
 
 /api/wallet – Retrieve and manage wallet data
 
 Authentication required for all private endpoints
 
-License
+### License
 ISC License
 
