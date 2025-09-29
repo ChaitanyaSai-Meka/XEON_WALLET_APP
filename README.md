@@ -36,34 +36,6 @@ Built with a React Native frontend and a Node.js + Express backend, it delivers 
 
 ---
 
-## Folder Structure  
-
-XEON_WALLET_APP/
-│
-├── Frontend/
-│ ├── app/
-│ ├── components/
-│ ├── constants/
-│ ├── hooks/
-│ ├── assets/
-│ └── ... (Configs, utils, etc.)
-│
-├── Backend/
-│ ├── src/
-│ │ ├── config/
-│ │ ├── controllers/
-│ │ ├── middleware/
-│ │ ├── routes/
-│ │ └── server.js
-│ └── .env
-│
-└── README.md
-
-yaml
-Copy code
-
----
-
 ## Getting Started  
 
 ### Prerequisites  
